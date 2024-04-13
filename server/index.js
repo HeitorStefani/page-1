@@ -9,5 +9,5 @@ app.get("/", (req, res) => {
 })
 
 app.listen(process.env.port, () => {
-  console.log('Servidor Ligado');
+  console.log('Servidor Ligado na porta> ' + process.env.port);
 });
